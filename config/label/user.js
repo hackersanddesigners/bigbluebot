@@ -3,13 +3,15 @@ module.exports = {
     open: 'app.userList.userOptions.manageUsersLabel',
     clear: 'USER MANAGE CLEAR ARIA LABEL',
     lock: 'USER MANAGE LOCK ARIA LABEL',
+    list: 'app.userList.userOptions.savedNames.title'
   },
   present: 'USER PRESENT ARIA LABEL',
   promote: 'USER PROMOTE ARIA LABEL',
   demote: 'USER DEMOTE ARIA LABEL',
   status: {
     open: 'USER STATUS OPEN ARIA LABEL',
-    away: 'USER STATUS AWAY ARIA LABEL',
+    // away: 'USER STATUS AWAY ARIA LABEL',
+    away: 'app.userList.userOptions.manageUsersLabel',
     hand: 'USER STATUS HAND ARIA LABEL',
     undecided: 'USER STATUS UNDECIDED ARIA LABEL',
     confused: 'USER STATUS CONFUSED ARIA LABEL',
