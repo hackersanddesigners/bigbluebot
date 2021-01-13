@@ -2,13 +2,13 @@
   "url": {
     "host": null,
     "locale": "html5client/locale?locale",
-    "demo": "demo/demoHTML5.jsp?action=create",
+    "demo": "join",
     "user": {
-      "param": "username"
+      "param": "fullName"
     },
     "moderator": {
       "param": "isModerator",
-      "value": true
+      "value": false
     },
     "meeting": {
       "param": "meetingname",
